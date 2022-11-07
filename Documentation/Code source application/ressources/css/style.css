@@ -1,0 +1,338 @@
+/*---------------------------------------------------------------------
+-------------------------Style pour les vues : vueAccueil, vueLogin, vueLogged et vueErreurLogin-----------------*/
+
+body
+{
+	background: url("../images/blue.jpg") fixed no-repeat center; 
+}
+
+html
+{
+	font-family: Arial;
+}
+
+header
+{
+	background-color: #FFF;
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	top: 0;
+	left: 0;
+	box-shadow: 0 2px 5px rgba(0,0,0,.26);
+	min-width: 600px;
+}
+
+#logo
+{
+	display: block;
+	margin-top: 15px;
+	margin-left: 100px;
+	float: left;
+}
+
+.menu
+{
+	margin-right: 100px;
+	font-size: 90%;
+	font-style: normal;
+}
+
+.menuObj
+{
+	display: block;
+	margin-top: 28px;
+	margin-right: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+	float: right;
+	font-size: 19px;
+	font-weight: lighter;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.menuObj a
+{
+	text-decoration: none;
+	color:black;
+}
+
+.menuObj a:hover
+{
+	color: rgb(200,20,20);
+}
+
+body
+{
+	background-color: #EEE;
+}
+
+#video
+{
+	display: block;
+	width: 854px;
+	margin: auto;
+	margin-top: 150px;
+	margin-bottom: -200px;
+}
+
+.textBox
+{
+	background-color: #FFF;
+	width: 400px;
+	margin: auto;
+	margin-top: 275px;
+	box-shadow: 0 2px 5px rgba(0,0,0,.26);
+	padding-bottom: 15px;
+	margin-bottom: 100px;
+}
+
+.textBox p
+{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.filler
+{
+	height: 50px;
+}
+
+.formulaireLogin
+{
+	display: block;
+	background-color: #FFF;
+	height: 200px;
+	width: 400px;
+	margin: auto;
+	margin-top: 300px;
+	box-shadow: 0 2px 5px rgba(0,0,0,.26);
+}
+
+
+
+.formulaireConsul
+{
+	display: block;
+	background-color: #FFF;
+	height: 200px;
+	width: 400px;
+	margin: auto;
+	margin-top: 350px;
+	box-shadow: 0 2px 5px rgba(0,0,0,.26);
+}
+
+h2
+{
+	display: block;
+	top: 0;
+	left: 0;
+	float: left;
+	margin-top:0;
+	padding: 7px;
+	color: white;
+	background-color: #66a3d3;
+	margin-right: 200px;
+}
+
+form
+{
+	display: block;
+	float: left;
+	margin-left: 15px;
+	width: 370px;
+}
+
+fieldset
+{
+	margin-top: 30px;
+}
+
+label
+{
+	float: left;
+}
+
+
+footer
+{
+	background-color: #f2f2f2;
+	position: fixed;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+}
+
+footer p
+{
+	margin-left: 10px;
+}
+
+
+
+/* style_rens */
+
+
+.labLog
+{
+	margin-left: 65px;
+}
+
+.labMdp
+{
+	margin-left: 8px;
+}
+
+.btnEnvoy_rens
+{
+	font-size:15px;
+	width: 100px;
+	margin-bottom: 50px;
+
+}
+
+.btnLe
+{
+	margin-left: 130px;
+	
+}
+
+
+.btnLib
+{
+	margin-left: 100px;
+}
+
+
+.btnEtp
+{
+	margin-left: 55px;
+}
+
+.btnKm
+{
+	margin-left: 10px;
+}
+.btnHotel
+{
+	margin-left: 60px;
+}
+.btnResto
+{
+	margin-left: 25px;
+}
+
+.btnAutre_1
+{
+	margin-left: 80px;
+}
+
+.btnAutre_2
+{
+	margin-left: 50px;
+}
+
+
+.btnAutre_3
+{
+	margin-left: 40px;
+}
+
+.formulaireRens
+{	/* bloc du formulaire fiche de frais*/
+	display: block;
+	background-color: #FFF;
+	height: 550px;
+	width: 400px;
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 80px;
+	padding-bottom: 5px;
+	box-shadow: 0 2px 5px rgba(0,0,0,.26);
+}
+
+.form_rens
+{
+	margin-top: 10px;
+}
+
+.form_rens_autre
+{
+	margin-top: 25px;
+}
+
+/* style_rens */
+
+
+
+/* style_cons */
+
+.formulaireConsul
+{
+	display: block;
+	background-color: #FFF;
+	height: 200px;
+	width: 400px;
+	margin: auto;
+	margin-top: 250px;
+	box-shadow: 0 2px 5px rgba(0,0,0,.26);
+}
+
+.btnEnvoy_consul
+{
+	font-size:15px;
+	width: 100px;
+	margin-bottom: 155px;
+}
+
+.btnDate
+{
+	margin: auto;
+}
+
+/* style_cons */
+
+
+
+/* style_erreur_login */
+
+
+.erreurLogin
+{
+	color:red;
+	width:100%;
+	font-size:14px;
+
+}
+
+.formulaireErreurLogin
+{
+	display: block;
+	background-color: #FFF;
+	height: 235px;
+	width: 400px;
+	margin: auto;
+	margin-top: 300px;
+	box-shadow: 0 2px 5px rgba(0,0,0,.26);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
